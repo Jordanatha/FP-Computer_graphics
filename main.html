@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="maincss.css">
+    <script type="text/javascript" src="babylon.custom.js"></script>
+    <script type = "text/javascript" src="scene.js"></script>
+    <script type="text/javascript" src="bootsrap/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootsrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootsrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="row" id="scoreRow">
+		<div class="col-sm-3" id="scoreText">
+			<h5>Score:</h5>
+		</div>
+		<div class="col-sm-3">
+			<h5 id="score">0</h5>
+		</div>
+
+		<div class="col-sm-3" id="missText">
+			<h5>Miss:</h5>
+		</div>
+		<div class="col-sm-3">
+			<h5 id="miss2">0</h5>
+		</div>
+	</div>
+	<div class="modal fade bd-example-modal-lg" id="myModal" role="dialog">
+	    <div class="modal-dialog modal-lg">
+	      <div class="modal-content">
+	        <div class="modal-header" id="modalHeader">
+	          <h4 class="modal-title" id="modalTitle"></h4>
+	        </div>
+	        <div class="modal-body">
+	          <p>Your Score: </p>
+	          <p id="scoreFinal">0</p>
+	          <p>Miss:</p>
+	          <p id="miss"></p>
+	          <p>Do you want to play again?</p>
+	        </div>
+	        <div class="modal-footer">
+	        	<a href="main.html" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">Play Again</a>
+	        	<a href="menu.html" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">Back to Main Menu</a>
+	        </div>
+	      </div>
+	    </div>
+    </div>
+    <canvas id="renderCanvas"></canvas>
+</body>
+</html>

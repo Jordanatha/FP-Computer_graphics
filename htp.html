@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="htp.css">
+    <script type="text/javascript" src="babylon.custom.js"></script>
+    <script type="text/javascript" src="bootsrap/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="bootsrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootsrap/js/bootstrap.min.js"></script>
+
+	<script>
+		var audio = new Audio('music/music.wav');
+		audio.play();
+		audio.loop=true;
+	</script>
+</head>
+
+<body>
+
+	<img src="htp.png" id="htp">
+
+	<div class="row">
+		<div class="col-sm-12" style="text-align:center">
+			<p id="ins">Press on the buttons that are set in your keyboad to kill the beats using c, n, and m</p>
+		</div>
+	</div>
+
+	<div>
+		<h1 style="text-align:center">Grading Criteria</h1>
+	</div>
+
+	<div class="row" id="crit">
+		<div class="col-sm-6">
+			<b>Easy</b>
+			<p>Less than 50 = Fail</p>
+			<p>51 - 100 = C</p>
+			<p>101 - 150 = B</p>
+			<p>More than 150 = A</p>
+		</div>
+		<div class="col-sm-6">
+			<b>Hard</b>
+			<p>Less than 350 = Fail</p>
+			<p>351 - 450 = C</p>
+			<p>451 - 550 = D</p>
+			<p>More than 550 = A</p>
+		</div>
+	</div>
+
+	<div>
+		<a href="menu.html" class="btn btn-primary btn-lg btn-block" role="button" aria-pressed="true">Back to Main Menu</a>
+	</div>
+</body>
+</html>

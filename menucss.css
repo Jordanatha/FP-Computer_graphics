@@ -1,0 +1,33 @@
+@font-face{
+    font-family: aller;
+    src: url(Aller_Bd.ttf);
+}
+
+body{
+	background-image: url(https://www.opera-online.com/media/images/avatar/author/116/xl_avatar.jpg?1320413736);
+	background-size: 100%;
+}
+
+#welcome{
+	color: red;
+	font-family: aller;
+	text-align: center;
+	font-size: 100px;
+}
+
+#difficulty{
+	color: red;
+	font-family: aller;
+	text-align: center;
+	font-size: 50px;
+}
+
+#buttons{
+	text-align: center;
+	margin-top:30px;
+}
+
+#helpButton{
+	text-align: center;
+	margin-top: 40px;
+}
